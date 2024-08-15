@@ -24,7 +24,6 @@ body {
     padding:10px 200px 10px 200px;
     background-image: linear-gradient(to bottom right,#2d388a,#00aeef)
     
-
 }
 
 .logo{
@@ -136,7 +135,7 @@ body {
     padding-top: 50px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: bolder;
 }
 
@@ -160,8 +159,7 @@ body {
     width:auto;
     height:200px;
     border-radius: 20px;
-    border: 3px 
-    #00aeef solid;
+    border: 3px #00aeef solid;
 }
 
 .gray{
@@ -180,6 +178,7 @@ body {
 
     font-size: 36px;
     font-style: italic;
+    color:#1f2937;
 
 }
 
@@ -189,7 +188,51 @@ body {
     font-weight: bolder;
 }
 
+.sign{
+    display:flex;
+    margin:100px 200px 100px 200px;
+    padding: 50px 20px 50px 50px;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,#2d388a,#00aeef);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.sign > p{
 
 
+    width:auto;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bolder;
+    font-size:15px; 
+    background-color:#3882f6;
+    color:#f9faf8; 
+    border: 2px solid #f9faf8 ;
+    
+    
+}
+
+.signtext{
+
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.signtext > h2 {
+    font-size: 30px;
+    color:#f9faf8;
+
+}
+.signtext > p {
+
+    font-style: italic;
+    color: #E5E7EB;
+
+}
 
 
