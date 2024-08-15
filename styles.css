@@ -11,6 +11,12 @@
 
 }
 
+body {
+
+    display: flex;
+    flex-direction: column;
+}
+
 .header{
     
     display: flex;
@@ -115,5 +121,28 @@
     width: 100%;
     max-height: 70%;
     border-radius: 20px;
+}
+
+.middle{
+    padding:10px 200px 10px 200px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+   
+}
+
+.information{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.subtext{
+    display:flex;
+    gap:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 
