@@ -190,9 +190,10 @@ body {
 
 .sign{
     display:flex;
+    
     margin:100px 200px 100px 200px;
     padding: 50px 20px 50px 50px;
-    border-radius: 20px;
+    border-radius: 10px;
     justify-content: space-around;
     align-items: center;
     background-image: linear-gradient(to bottom right,#2d388a,#00aeef);
@@ -233,6 +234,17 @@ body {
     font-style: italic;
     color: #E5E7EB;
 
+}
+
+footer{
+
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #E5E7EB;
+    background-color: #1f2937;
 }
 
 
